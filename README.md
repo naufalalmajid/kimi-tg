@@ -8,6 +8,18 @@ building this bot for group assist, helping with basic:
 
 will build in a couple months, on sbc bcs my esp32 just got burned lol
 
-## build setup
+build setup
 - any sbc w/ decent ram
 - coingecko api (premium)
+
+
+## ultra light version
+
+- currency converter (limited crypto, fiat, stock)
+- trade calculator (liquidation, sl, tp)
+
+build setup
+- any microcontroller (using esp8266)
+- coingecko api (free)
+
+using coingecko api free bcs esp8266 too small heap memory 
